@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+    transition: all 0.3s linear;
+}
+
+.carousel-inner img {
+    width: 100%;
+    height: 92.5vh;
+}
+
+.aboutimg {
+    width: 100%;
+    height: 250px !important;
+}
+
+.gallery .img-fluid,
+.service .card .card-img-top,
+.service .card .card-body,
+.service .card {
+    transition: all 0.3s linear;
+    cursor: pointer;
+    border: none !important;
+}
+
+.service,
+#contactid {
+    width: 100% !important;
+    min-height: 100vh !important;
+}
+
+.service .card,
+.service .card .card-img-top {
+    border-radius: 15px !important;
+}
+
+.gallery .img-fluid:hover,
+.service .card:hover .card-img-top {
+    box-shadow: 0 0 15px rgb(0, 0, 0) !important;
+}
+
+#myBtn {
+    position: fixed;
+    bottom: 20px;
+    right: 40px;
+    z-index: 99;
+    border: none;
+    color: white;
+    background-color: #00abff;
+    padding: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s linear;
+}
+
+#myBtn:hover {
+    background-color: #2e81aa;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
+}
+
+.social:hover {
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}
+
+.social {
+    color: #435A64;
+    transform: scale(0.8);
+    -webkit-transform: scale(0.8);
+    -moz-transform: scale(0.8);
+    -o-transform: scale(0.8);
+    transition-duration: 0.5s;
+    -webkit-transition-duration: 0.5s;
+    -moz-transition-duration: 0.5s;
+    -o-transition-duration: 0.5s;
+}
+
+#social-fb:hover {
+    color: #4267B2;
+}
+
+#social-tw:hover {
+    color: #4FCE5D;
+}
+
+#social-gp:hover {
+    color: #00ccff;
+}
+
+#social-em:hover {
+    color: #8a3ab9;
+}
